@@ -1,0 +1,8 @@
+[package]
+name = "serde_dispatch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_dispatch_macros = { path = "serde-dispatch-macros/" }
+bincode = "1.3.3"

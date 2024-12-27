@@ -23,7 +23,7 @@ You just:
 
 Please have a look at `example-project/` to see an example usage.
 
-# TODOs (which probably will never be resolved)
+## TODOs (which probably will never be resolved)
 
 - add docs for the main macro
 - make the macro generate docs for the items that it generates

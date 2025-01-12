@@ -78,7 +78,7 @@ pub fn serde_dispatch(_attr: TokenStream, item: TokenStream) -> TokenStream {
                         pat_type
                     } else {
                         // all functions arguments except the first one should be FnArg::Typed (not FnArg::Receiver)
-                        panic!("this error should never happen")
+                        unreachable!()
                     }
                 })
                 .collect();
